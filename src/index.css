@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Press+Start+2P");
+@import url("http://db.onlinewebfonts.com/c/487390d5558cff7a17ce35d7d92a0540?family=Pretendo");
+
+@font-face {
+  font-family: "Terminator 2";
+  src:
+    local("Terminator 2"),
+    url("./assets/t2.woff2") format("woff2"),
+    url("./assets/t2.woff") format("woff"),
+    url("./assets/t2.ttf") format("truetype");
+}
+
+:root {
+  font-size: 18px;
+}
+
+/* Layout */
+body {
+  background-color: #000;
+  background-image:
+    repeating-linear-gradient(
+      132deg,
+      #000 0% 10%,
+      transparent 10% 11%,
+      #000 11% 21%,
+      transparent 21% 22%
+    ),
+    linear-gradient(
+      50deg,
+      #7e2e52 30%,
+      #513a8d 60%
+    );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 4rem;
+  margin: 0;
+  text-align: right;
+  color: #8bac0f;
+  text-shadow: 2px 2px 0 #51640a;
+
+  & span {
+    font-family: "Terminator 2", monospace;
+    font-size: 2rem;
+    color: #28d;
+    text-shadow: 2px 2px 0 #24a;
+    display: block;
+  }
+}
+
+.author {
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 2em;
+
+  & a { color: #c78dff; }
+  & a:hover { color: #eaee09; }
+}
