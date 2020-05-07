@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Press+Start+2P");
-@import url("http://db.onlinewebfonts.com/c/487390d5558cff7a17ce35d7d92a0540?family=Pretendo");
+
+@font-face {
+  font-family: "Pretendo";
+  src:
+    local("Pretendo"),
+    url("./assets/pretendo.woff2") format("woff2"),
+    url("./assets/pretendo.woff") format("woff"),
+    url("./assets/pretendo.ttf") format("truetype");
+}
 
 @font-face {
   font-family: "Terminator 2";

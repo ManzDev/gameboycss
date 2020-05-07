@@ -210,7 +210,7 @@ export default class GameboyConsole extends LitElement {
         & .company,
         & .type {
           font-family: Pretendo, sans-serif;
-          font-size: 15px;
+          font-size: 14px;
           color: #302058;
         }
 
