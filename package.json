@@ -25,27 +25,27 @@
   "author": "ManzDev",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.11.0",
-    "@types/dat.gui": "^0.7.5",
+    "@babel/core": "^7.12.16",
+    "@types/dat.gui": "^0.7.6",
     "@types/howler": "^2.2.1",
-    "autoprefixer": "^9.8.6",
+    "autoprefixer": "^10.2.4",
     "babel-plugin-postcss-template-literals": "^1.0.0-alpha.2",
     "cssnano": "^4.1.10",
-    "eslint": "^7.6.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-promise": "^4.3.1",
     "gh-pages": "^3.1.0",
     "postcss-nesting": "^7.0.1",
-    "prettier": "^2.0.5",
-    "stylelint": "^13.6.1",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.10.0",
     "stylelint-config-standard": "^20.0.0"
   },
   "dependencies": {
     "dat.gui": "^0.7.7",
-    "howler": "^2.2.0",
-    "lit-element": "^2.3.1"
+    "howler": "^2.2.1",
+    "lit-element": "^2.4.0"
   }
 }
